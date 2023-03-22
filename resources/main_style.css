@@ -2,12 +2,23 @@ body {
     margin-right: 10%;
     margin-left: 10%;
     font-family: "Linden Hill";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    height: 15em;
-    width: 14em;
+footer {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+#pic-of-me {
+    height: 17em;
+    width: 15em;
     border-radius: 50%;
+    margin-right: 10%;
 }
 
 header {
@@ -27,9 +38,21 @@ nav {
 
 .about-me-container {
     display: inline-flex;
-    justify-items: space-between;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 #about-spacer {
-    flex-grow: 3;
+    flex-grow: .16;
+}
+
+.skills-container {
+    display: inline-flex;
+}
+
+.logo {
+    height: 5em;
+    width: 5em;
+    overflow:hidden; 
+
 }
