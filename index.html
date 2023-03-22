@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jonathan's Portfolio</title>
-        <link rel="stylesheet" href="/resources/main_style.css">
+        <link rel="stylesheet" href="./resources/main_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Linden+Hill:ital@0;1&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -15,26 +18,42 @@
                 <div class="nav-button"><a href="#about-me">About Me</a></div>
                 <div class="nav-button"><a href="#projects">Projects</a></div>
                 <div class="nav-button"><a href="#skills">Skills</a></div>
-                <div class="nav-button"><a href="/contact-page.html">Contact</a></div>
+                <div class="nav-button"><a href="/Users/jonathanmalks/Codecademy/portfolio_project/contact-page.html">Contact</a></div>
             </nav>
         </header>
         <main>
-            <div id="image-container">
-                <img src="/resources/images/jm-profile_.jpeg" alt="Jonathan Malks" id="pic-of-me">
-            </div>
-            <div id="about-me">
-                <h2>About Me</h2>
-                <p>INSERT DEV BIO HERE</p>
-            </div>
-            <div id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-            <div id="skills">
-                <!-- not really sure what goes here, maybe a line of images? -->
-            </div>
+            <section class="about-me-container">
+                <div id="about-me">
+                    <h2>About Me</h2>
+                    <p>My name's Jonathan, but most folks call me Jonny. <br>
+                    I wish I was born in a world where Pokémon exist, <br>
+                    but instead -- on earth -- I learned to play ultimate frisbee pretty well. 
+                    </p>
+                    <p>
+                        I am an aspiring frontend software developer and woodworker. <br>
+                        In both of these paths, I endeavor to use my hands to build <br>
+                        simple and meaningful things for good folks. 
+                    </p>
+                    <p>Sometimes I write songs and play Dungeon's & Dragons.</p>
+                </div>
+                <div id="about-spacer"></div>
+                <div id="image-container">
+                    <img src="./resources/images/jm-profile_.jpeg" alt="Jonathan Malks" id="pic-of-me">
+                </div>
+            </section>
+            <section class="projects-container">
+                <div id="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="skills-container">
+                <div id="skills">
+                    <!-- not really sure what goes here, maybe a line of images? -->
+                </div>
+            </section> 
         </main>
         <footer>
             <p id="footer-words">Made with love in Virginia.</p>

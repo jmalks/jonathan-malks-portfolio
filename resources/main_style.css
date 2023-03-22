@@ -1,0 +1,35 @@
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Linden Hill";
+}
+
+img {
+    height: 15em;
+    width: 14em;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 30%;
+}
+
+.nav-button {
+    display: inline-flex;
+    margin-right: 5%;
+}
+
+.about-me-container {
+    display: inline-flex;
+    justify-items: space-between;
+}
+
+#about-spacer {
+    flex-grow: 3;
+}
