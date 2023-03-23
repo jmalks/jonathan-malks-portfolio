@@ -1,6 +1,16 @@
+'use strict';
+
 const imageTargetor = document.getElementById('pic-of-me');
-console.log(imageTargetor);
-const imageChange = image => {
-    image.src = 'https://dirask.com/static/bucket/1633375165831-yjQ7G6WQeL--image.png';
+
+
+const changeImage = () => {
+    let imageTracker = "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-profile_.jpeg";
+    let img = document.getElementById('pic-of-me');
+    if (imageTracker === "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-profile_.jpeg") {
+        img.setAttribute('src', "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-portrait_.jpeg")
+        imageTracker = "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-portrait_.jpeg";
+    } else {
+        img.setAttribute("src", "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-profile_.jpeg")
+    };
 }
-imageTargetor.addEventListener('click', imageChange);
+imageTargetor.addEventListener('click', changeImage);
