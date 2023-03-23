@@ -91,3 +91,17 @@ li {
 #icon-container img {
     margin-right: 3%;
 }
+
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    #pic-of-me {
+        height: 15em;
+        width: 13em;
+        border-radius: 50%;
+    }
+    #fun-gif {
+        height: 10em;
+        width: 13emm;
+        border-radius: 10%;
+        margin-top: 3%;
+    }
+}
