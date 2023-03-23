@@ -10,7 +10,18 @@ Jonny's portfolio project has only one use: for users to learn about Jonny and h
 
 ```
 
-[CODE STUFF HERE]
+const imageTargetor = document.getElementById('pic-of-me');
+
+let toggle = true;
+const changeImage = () => {
+    toggle = !toggle;
+    if (toggle) {
+        imageTargetor.src = "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-profile_.jpeg";
+    } else
+        imageTargetor.src = "/Users/jonathanmalks/Codecademy/portfolio_project/resources/images/jm-portrait_.jpeg";
+};
+
+imageTargetor.addEventListener('click', changeImage);
 
 ```
 
