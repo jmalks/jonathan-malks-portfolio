@@ -15,8 +15,8 @@ footer {
   }
 
 #pic-of-me {
-    height: 17em;
-    width: 15em;
+    height: 18em;
+    width: 16em;
     border-radius: 50%;
     margin-right: 10%;
 }
@@ -29,6 +29,7 @@ header {
 
 nav {
     width: 30%;
+    font-size: 1.2em;
 }
 
 .nav-button {
@@ -43,7 +44,7 @@ nav {
 }
 
 #about-spacer {
-    flex-grow: .16;
+    flex-grow: .17;
 }
 
 .skills-container {
@@ -54,5 +55,38 @@ nav {
     height: 5em;
     width: 5em;
     overflow:hidden; 
+}
 
+a {
+    text-decoration: none;
+    color: rgb(78, 154, 78);
+}
+
+a:hover {
+    color: orchid;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:visited:hover {
+    color: orchid;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+#fun-gif {
+    border-radius: 10%;
+    margin-top: 3%;
+}
+
+#icon-container img {
+    margin-right: 3%;
 }
